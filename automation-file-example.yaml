@@ -1,0 +1,12 @@
+description: Automation example from a separate file
+steps:
+- content: |
+    echo "hi from file automation step 1"
+  description: this is step 1
+  runner: shell
+  title: step 1
+- content: |
+    echo "hi from file automation step 2"
+  description: this is step 2
+  runner: shell
+  title: step 2
